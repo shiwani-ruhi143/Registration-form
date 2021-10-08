@@ -1,10 +1,10 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1631772418667-47014d6e56b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1491183672482-d0af0e44929d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
     background-size: cover;    
 }
 table{
-    background-image: url("https://images.unsplash.com/photo-1609743307371-9495ca150e6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80");
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80");
     width: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,18 +12,22 @@ table{
     margin-top: 100px;
     border: 1px solid  whitesmoke ;
     border-collapse: separate;
-    border-radius: 30px;
-    border-top-right-radius: 100px;
+    box-shadow: 18px 18px 24px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 18px 18px 24px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 18px 24px -9px rgba(0,0,0,0.75);
+    border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     
     
 }
 .first-heading{
+    background-color:rgb(252, 208, 15) ;
     margin-top: 30px;
-    color: antiquewhite;
+    color: black;
+    font-weight: bold;
     font-size: 60px;
     font-family: 'Roboto Condensed', sans-serif;
-    border:3px solid rgb(93, 209, 255);
+    border:3px solid black;
     width:800px;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px ;
@@ -37,7 +41,9 @@ table{
 
 .form-elements{
     font-family: 'Open Sans', sans-serif;
-    font-size : 35px;    
+    font-size : 35px;  
+    font-weight: bold; 
+    color: black; 
 }
 
 .input-elements{
