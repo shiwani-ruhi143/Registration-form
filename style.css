@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1631772418667-47014d6e56b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+table{
+    background-image: url("https://images.unsplash.com/photo-1609743307371-9495ca150e6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80");
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 1px solid  whitesmoke ;
+    border-collapse: separate;
+    border-radius: 30px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+    
+}
+.first-heading{
+    margin-top: 30px;
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border:3px solid rgb(93, 209, 255);
+    width:800px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px ;
+}
+
+.second-heading{
+    color: rgb(15, 15, 15);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px
+}
+
+.form-elements{
+    font-family: 'Open Sans', sans-serif;
+    font-size : 35px;    
+}
+
+.input-elements{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    width: 250px;
+}
+
+#button{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gender-elements{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
